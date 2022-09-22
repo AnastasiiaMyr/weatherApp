@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto';
+    font-size: 22px;
+  }
+  .card {
+    margin: 40px 40px 20px;
+    background: #c7d9ea;
+    color: white;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(47, 177, 181, 0.7) 20%,
+      rgba(94, 126, 159, 0.9) 95%
+    );
+    padding: 40px;
+    border-radius: 20px;
+    border-color: #9cacbb;
+    width: 100%;
+    max-width: 700px;
+  }
+  .search-form {
+    width: 203px;
+  }
+  .searchBlank {
+    position: relative;
+    left: 7px;
+  }
+  .searchButton {
+    position: relative;
+    left: 6.7px;
+  }
+  .currentButton {
+    position: relative;
+    left: 2px;
+  }
+  
+  .hour {
+    display: inline;
+    color: white;
+  }
+  .currentMonth {
+    color: white;
+  }
+  .currentDay {
+    display: inline;
+    color: white;
+  }
+  .description:first-letter {
+    text-transform: capitalize;
+  }
+  #current-city:first-letter {
+    text-transform: capitalize;
+  }
+  .description {
+    font-size: large;
+    text-align: center;
+    margin: 5px 0 0;
+  }
+  
+  #wind,
+  #humidity {
+    color: white;
+  }
+  .units {
+    font-size: 23px;
+    position: relative;
+    bottom: -5px;
+  }
+  #temperature-c {
+    text-decoration: none;
+    color: rgb(150, 250, 255);
+  }
+  #temperature-f {
+    text-decoration: none;
+    color: rgb(171, 231, 255);
+  }
+  #main-icon {
+    background-color: rgba(20, 95, 144, 0.1);
+    border-radius: 20px;
+    padding: 2px;
+    width: 130px;
+    position: relative;
+    left: 28px;
+  }
+  .bottomBox {
+    padding: 28px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+  }
+  .todayWeather {
+    padding: 0 50px 0 4px;
+    position: relative;
+    bottom: -5px;
+  }
+  .today {
+    opacity: 0.7;
+    position: relative;
+    bottom: -10px;
+  }
+  .currentTemp {
+    font-size: 45px;
+    margin: 0;
+    position: relative;
+    bottom: -10px;
+  }
+  .weather-forecast {
+    width: 700px;
+  }
+  .weather-forecast-date {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
+  .weather-forecast-temperature-min {
+    opacity: 0.6;
+    font-size: 15px;
+  }
+  
+  .weather-forecast-temperatures {
+    font-size: 17px;
+  }
+  
+  .coder {
+    font-size: 12px;
+    position: relative;
+    bottom: -25px;
+  }
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  a:-webkit-any-link {
+    color: #80ccff;
+    cursor: pointer;
+    text-decoration: none;
+  }
